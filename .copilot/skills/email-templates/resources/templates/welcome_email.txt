@@ -1,5 +1,0 @@
-Witaj, {{ user_name }}!
-
-Dziękujemy za dołączenie do listy mailingowej.
-Twoje konto: {{ user_email }}
-
