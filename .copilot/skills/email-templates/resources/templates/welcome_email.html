@@ -1,0 +1,7 @@
+{% extends "base_email.html" %}
+
+{% block body %}
+<h1>Witaj, {{ user_name }}!</h1>
+<p>Dziękujemy za dołączenie do listy mailingowej.</p>
+<p>Twoje konto: {{ user_email }}</p>
+{% endblock %}
