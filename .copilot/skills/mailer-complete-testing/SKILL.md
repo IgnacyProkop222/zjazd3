@@ -34,30 +34,11 @@ Kompleksowy skill dla testowania komponentów systemu Mailer. Zapewnia wzorce dl
 
 ## Test Template
 
-```python
-import pytest
-from unittest.mock import Mock, patch
-from mailer.email_sender import EmailSender
-from mailer.subscribers import SubscriberManager
-
-class TestMailerComponent:
-    @pytest.fixture
-    def setup(self):
-        # Setup fixture
-        pass
-
-    def test_happy_path(self, setup):
-        # Main scenario
-        pass
-
-    def test_edge_cases(self, setup):
-        # Edge cases
-        pass
-
-    def test_error_handling(self, setup):
-        # Error scenarios
-        pass
-```
+Opisuj strukturę testów w formie słownej zamiast podawać gotowych skryptów. Na przykład:
+- przygotowanie konfiguracji testowej w fixture
+- testowanie scenariusza poprawnego przebiegu
+- testowanie edge cases i błędów
+- testowanie warunków brzegowych i nieprawidłowych danych
 
 ## Coverage Requirements
 - Functions: 100%
